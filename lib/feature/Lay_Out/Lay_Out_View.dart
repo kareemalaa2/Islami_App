@@ -19,6 +19,8 @@ class Lay_Out_View extends StatefulWidget {
 }
 
 class _Lay_Out_ViewState extends State<Lay_Out_View> {
+  int i = 1 ;
+  int k = 2 ;
   int selectedIndex = 0 ;
   List<Widget> screensList = [
     QuranView() ,
